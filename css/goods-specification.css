@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #fff;
+    font: 14px/2 "微软雅黑";
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+input[type="text"], input[type="email"], input[type="search"], input[type="password"] {
+    -webkit-appearance: caret;
+    -moz-appearance: caret; /* mobile firefox too! */
+}
+
+.l-float {
+    float: left;
+}
+
+.r-float {
+    float: right;
+}
+
+img {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    border-top: 7px #e6e6e6 solid;
+}
+
+.goods-type {
+    clear: both;
+}
+
+h1, h2 {
+    padding-left: 16px;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 3px;
+    line-height: 2;
+}
+
+h2 {
+    padding-right: 16px;
+    color: #999;
+}
+
+.goods-type .custom {
+    margin-left: 25px;
+    display: block;
+    border: none;
+    width: 100px;
+    height: 23px;
+    line-height: 23px;
+    border-radius: 3px;
+    padding: 3px 5px;
+    background: #f5f5f5;
+}
+
+.goods-type .type ul {
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+.goods-type .type ul li {
+    float: left;
+    border: 1px #d9d9d9 solid;
+    color: #858585;
+    width: 26.3%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 3.9% 10px 0;
+}
+
+.goods-type .type ul {
+    height: 84px;
+    overflow: hidden;
+}
+
+.goods-type .type ul li.active {
+    color: #cb6ddf;
+    border-color: #cb6ddf;
+}
+
+.goods-type .type .arrow {
+    display: none;
+    height: 25px;
+    background: url(../images/drop-down.png) no-repeat center top;
+}
+
+.set-type {
+    clear: both;
+}
+
+.set-type-header {
+    overflow: hidden;
+}
+
+.set-type-body {
+    overflow: hidden;
+    padding: 10px 0 50px;
+}
+
+.set-type-body .prompt {
+    color: #b0b0b0;
+    font-size: 13px;
+    padding: 0 20px 0 30px;
+}
+
+.set-type-body dl {
+    clear: both;
+    padding-left: 30px;
+}
+
+.set-type-body dl dt {
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+.set-type-body dl dd input {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    padding: 4px 0;
+    line-height: 22px;
+    height: 22px;
+    border-radius: 3px;
+    border: 1px #d9d9d9 solid;
+    text-align: center;
+    background: none;
+    　-webkit-appearance: none;
+}
+
+.fixed-btn {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    height: 40px;
+
+}
+
+.fixed-btn a {
+    display: block;
+    background: #cb6ddf;
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.mask {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 10%;
+    top: 50%;
+    height: 269px;
+    margin-top: -134px;
+    z-index: 12;
+    background: #f0f0f0;
+    width: 80%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.modal h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.modal .modal-body {
+    padding: 0 6.3%;
+    height: 160px;
+}
+
+.modal .modal-body input {
+    border: none;
+    background: #fff;
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.modal .modal-body .describe {
+    color: #999999;
+}
+
+.modal .modal-footer {
+    height: 40px;
+}
+
+.modal .modal-footer a {
+    float: left;
+    width: 50%;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #cb6ddf;
+}
+
+.modal .modal-footer a:first-child {
+    border-right: 1px #aa82b3 solid;
+    box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder ,input:-moz-placeholder{
+    color: #333;
+}
+

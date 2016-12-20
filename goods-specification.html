@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta charset="UTF-8">
+    <title>商品规格</title>
+    <link rel="stylesheet" href="css/goods-specification.css" type="text/css">
+    <script type="text/javascript" charset="utf-8" src="js/jquery/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="type-container">
+    </div>
+    <div class="set-type">
+        <div class="set-type-header">
+            <h1 class="l-float">价格/库存</h1>
+            <h2 class="r-float" id="volume-set">批量设置</h2>
+        </div>
+        <div class="set-type-body">
+            <p class="prompt">你需要选择相应的销售属性,才能组合成完整的规格信息</p>
+        </div>
+    </div>
+</div>
+<div class="fixed-btn">
+    <a href="javascript:;" id="submit">确定</a>
+</div>
+<div class="mask"></div>
+<div class="modal">
+    <h1>批量设置价格/库存</h1>
+    <div class="modal-body">
+        <input type="text" placeholder="价格" class="set-price">
+        <input type="text" placeholder="库存" class="set-inventory">
+        <p class="describe">你可以只设定价格或者只设定库存</p>
+    </div>
+    <div class="modal-footer">
+        <a href="javascript:;" id="change">取消</a>
+        <a href="javascript:;" id="confirm">确定</a>
+    </div>
+</div>
+<script type="text/javascript" charset="utf-8" src="js/goods-specification.js"></script>
+</body>
+</html>
