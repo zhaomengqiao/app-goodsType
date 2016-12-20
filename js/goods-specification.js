@@ -59,9 +59,9 @@ function appendData() {
 
     var num = 0;
     for (var item in list) {
-        var oGiidsType = $('<div class="goods-type"></div>').appendTo($('.type-container'));
-        $('<h1>' + item + '分类</h1>').appendTo(oGiidsType);
-        var type = $('<div class="type"></div>').appendTo(oGiidsType);
+        var oGoodsType = $('<div class="goods-type"></div>').appendTo($('.type-container'));
+        $('<h1>' + item + '分类</h1>').appendTo(oGoodsType);
+        var type = $('<div class="type"></div>').appendTo(oGoodsType);
         var aTypes = $('<ul></ul>').appendTo(type);
         var len = list[item].length;
         var h = 84;
