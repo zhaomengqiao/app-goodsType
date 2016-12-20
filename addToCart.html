@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <title>加入购物车</title>
+    <link rel="stylesheet" href="css/addToCart.css" type="text/css">
+    <script type="text/javascript" charset="utf-8" src="js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/data/attributeViewData.js"></script>
+</head>
+<body>
+<input type="hidden" id="goodsId" value="6BF02C56D99441FDAA748D143801213A">
+<input type="hidden" id="memberId" value="0CEE87EA6A094BFDB9B2099C4AD45552">
+<input type="hidden" id="url" value="10A">
+<input type="hidden" id="imgUrl" value="images/A22D2DA8DB58403DA5B7F04B5CD1FC21.jpg">
+<div class="buy-now">
+    <div class="buy-now-header">
+        <dl>
+            <dt><img src="images/goods.png" id="goodsImg"/></dt>
+            <dd>
+                <span class="price">￥88.88</span>
+            </dd>
+            <dd>
+                <span class="type">请选择尺寸/款式</span>
+            </dd>
+            <dd class="select-type"></dd>
+            <dd>
+                <span class="format">库存：<i class="hasStock">2</i></span>
+            </dd>
+        </dl>
+    </div>
+    <div class="buy-now-body">
+        <div class="dynamic-norms"></div>
+        <div class="number">
+            <dl>
+                <dt>数量</dt>
+                <dd>
+                    <a href="javascript:;" class="l-float minus"></a>
+                    <span id="total" class="l-float">1</span>
+                    <a href="javascript:;" class="l-float plus"></a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="buy-now-footer">
+        <a href="javascript:;" id="submilt">确定</a>
+    </div>
+</div>
+<script type="text/javascript" charset="utf-8" src="js/addToCart.js"></script>
+</body>
+</html>
