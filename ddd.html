@@ -1,16 +1,94 @@
-<style>
-    *{padding:0px;margin:0px;}
-    .orderlist{position:absolute;top:6%;background:black;z-index:1000;opacity:0.75;color:white;border-radius:13px;height: 25px;overflow: hidden;left: 3%;}
-    .orderlist img{ border-radius:50%} 
+<style type="text/css">
+	@-webkit-keyframes scrollText1 {
+    0%{
+        -webkit-transform: translateY(0px);
+    }
+    20%{
+        -webkit-transform: translateY(-30px);
+    }
+    40%{
+        -webkit-transform: translateY(-60px);
+    }
+    60%{
+        -webkit-transform: translateY(-90px);
+    }
+    80%{
+        -webkit-transform: translateY(-120px);
+    }
+    100%{
+        -webkit-transform: translateY(-150px);
+    }
+}
+
+@keyframes scrollText1 {
+    0%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(-30px);
+    }
+    40%{
+        transform: translateY(-60px);
+    }
+    60%{
+        transform: translateY(-90px);
+    }
+    80%{
+        transform: translateY(-120px);
+    }
+    100%{
+        transform: translateY(-150px);
+    }
+}
+
+.box3{
+  position: relative;
+  top: 6%;
+  left: 3%;
+  width: 200px;
+  height: 30px;
+  overflow: hidden;
+  background: rgba(0,0,0,0.7);
+  z-index: 1000;
+  color: white;
+  border-radius: 13px;
+} 
+.border3{
+  top: 0px;
+  -webkit-animation:scrollText1 8s infinite  cubic-bezier(1,0,0.5,0) ;
+  animation:scrollText1 8s infinite  cubic-bezier(1,0,0.5,0) ;
+}
+.border3 img{ border-radius:50%; margin-left: 5px;
+	height: 24px;
+  line-height: 24px;
+  vertical-align: middle;
+} 
+
+.border3 div{
+  height: 30px;
+  line-height: 28px;
+}
+
+.border3:hover{
+  animation-play-state:paused;
+  -webkit-animation-play-state:paused;
+}
+
+.shuoming{font-size:12px;height:30px;line-height: 30px;}
 </style>
-<ul>
-<li class="orderlist" style="font-size:14px;"><img id="headpic" src="https://avatars2.githubusercontent.com/u/23172646?s=40&v=4" width="25">
-    <span id="shuoming" style="margin-left:3%;line-height:25px;font-size:12px;position: relative;top: -7;">最新订单来自盐城的哈哈</span>
-</li>
-<li class="orderlist" style="font-size:14px;"><img id="headpic" src="https://avatars2.githubusercontent.com/u/23172646?s=40&v=4" width="25">
-    <span id="shuoming" style="margin-left:3%;line-height:25px;font-size:12px;position: relative;top: -7;">最新订单来自盐城的哈哈</span>
-</li>
-<li class="orderlist" style="font-size:14px;"><img id="headpic" src="https://avatars2.githubusercontent.com/u/23172646?s=40&v=4" width="25">
-    <span id="shuoming" style="margin-left:3%;line-height:25px;font-size:12px;position: relative;top: -7;">最新订单来自盐城的哈哈</span>
-</li>
-</ul>
+<div class="box3">
+  <div class="border3">
+    <div><img id="headpic" src="https://avatars2.githubusercontent.com/u/23172646?s=40&v=4" width="24">
+    <span class="shuoming">最新订单来自盐城的哈哈</span></div>
+    <div><img id="headpic" src="https://avatars2.githubusercontent.com/u/23172646?s=40&v=4" width="25">
+    <span class="shuoming">最新订单来自盐城的哈哈</span></div>
+    <div><img id="headpic" src="https://avatars2.githubusercontent.com/u/23172646?s=40&v=4" width="25">
+    <span class="shuoming">最新订单来自盐城的哈哈</span></div>
+    <div><img id="headpic" src="https://avatars2.githubusercontent.com/u/23172646?s=40&v=4" width="25">
+    <span class="shuoming">最新订单来自盐城的哈哈</span></div>
+    <div><img id="headpic" src="https://avatars2.githubusercontent.com/u/23172646?s=40&v=4" width="25">
+    <span class="shuoming">最新订单来自盐城的哈哈</span></div>
+    <div><img id="headpic" src="https://avatars2.githubusercontent.com/u/23172646?s=40&v=4" width="25">
+    <span class="shuoming">最新订单来自盐城的哈哈</span></div>
+  </div>
+</div>
